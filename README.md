@@ -7,7 +7,7 @@ Salah satu instrumen finansial yang populer di tengah masyarakat Indonesia adala
 Sebelum melakukan investasi saham, investor haruslah memahami instrumen investasi yang akan ingin diinvestasikannya. Banyak pertimbangan yang harus diambil secara matang oleh investor, agar mendapatkan perusahaan yang memiliki prospek baik dan harga saham terbaik (Filbert, 2020).
 
 ![Chart Saham Netflix]
-(/.../main/assets/Chart_NFLX.PNG)
+(/../main/assets/Chart_NFLX.PNG)
 
 ## Business Understanding
 
