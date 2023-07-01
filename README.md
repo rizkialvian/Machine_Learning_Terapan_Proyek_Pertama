@@ -6,6 +6,8 @@ Salah satu instrumen finansial yang populer di tengah masyarakat Indonesia adala
 
 Sebelum melakukan investasi saham, investor haruslah memahami instrumen investasi yang akan ingin diinvestasikannya. Banyak pertimbangan yang harus diambil secara matang oleh investor, agar mendapatkan perusahaan yang memiliki prospek baik dan harga saham terbaik (Filbert, 2020).
 
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+
 ![Chart Saham Netflix]
 (/assets/Chart_NFLX.PNG)
 
