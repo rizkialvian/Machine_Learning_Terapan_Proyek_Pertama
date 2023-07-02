@@ -64,10 +64,20 @@ Berikut adalah 5 data harga saham PT Bank Rakyat Indonesia Tbk periode 2 Juli 20
 
 ### Visualisasi data
 Berikut adalah harga penutupan saham PT Bank Rakyat Indonesia Tbk periode 2 Juli 2018 sampai 28 Juni 2023. untuk pergerakannya dapat dilihat pada gambar dibawah ini.
+
 ![Harga Saham PT Bank Rakyat Indonesia Tbk periode 2 Juli 2018 sampai 28 Juni 2023](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/9ffa7391a1083edecf291bdd77d1928ddfc9c81a/assets/PT%20Bank%20Rakyat%20Indonesia%20Tbk%20(2%20Jul%202018%20-%2028%20Jun%202023).png?raw=true)
+
 Dari gambar diatas dapat kita lihat bahwa harga saham terkadang naik, terkadang turun. Namun apabila diamati lebih dalam, harga saham menunjukan pola tren naik.
 
 ## Data Preparation
+Teknik Data Preparation yang Dilakukan adalah sebagai berikut:
+* Memeriksa tipe data, tahapan ini perlu dilakukan untuk memeriksa apakah data merupakan object atau berbentuk kategorikal. Setelah diperiksa ternyata tipe data penutupan saham merupakan data numerik dengan tipe float64, yang berarti tahapan ini dapat terlewati.
+* memeriksa apakah ada data yang kosong, tahapan ini perlu dilakukan untuk memastikan tidak ada data yang dapat mempengaruhi perolehan hasil model. setelah diperiksa ternyata tidak ada data yang kosong sehingga tahapan ini dapat terlewati.
+* Mengambil kolom Close, ini dilakukan karena yang akan digunakan dalam proses prediksi harga adalah data penutupan saham, sehingga yang dipilih adalah kolom Close saja.
+* Melakukan MinMaxScaller, ini merupakan proses scalling dengan mengubah data numeric menjadi data numeric yang memiliki rentang 0 - 1
+* Mengubah data menjadi tipe array dan membagi data menjadi data training dan data testing dengan perbandingan 80:20. Dari pembagian ini diperoleh data training sebanyak 992 data.
+
+Berikut adalah hasilnya dalam bentuk array:
 
 ## Modeling
 
