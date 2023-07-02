@@ -135,10 +135,8 @@ Berikut adalah visualisasi dari hasil prediksi yang dilakukan menggunakan algori
 
 Dapat dilihat pada gambar diatas, visualisasi yang dihasilkan oleh hasil prediksi model LSTM menunjukkan tren yang terjadi mampu mengikuti tren aktualnya. Dapat dilihat juga dari gambar bahwa jarak antara harga aktual dengan harga prediksi tidak terlalu jauh. Ini berarti menunjukan bahwa model yang diperoleh cukup baik untuk dapat digunakan dalam melakukan prediksi harga saham PT Bank Rakyat Indonesia Tbk.
 
-Selain dilihat secara visual, untuk menentukan model yang terbentuk baik digunakan dalam melakukan prediksi adalah nilai MAE. dimana semakin kecil nilai MAE, maka semakin baik kualitas model tersebut.
-
 ### Nilai MSE & MAE
-Dari hasil pengolahan data yang sudah dilakukan, hasil MSE yang diperloleh adalah:
+Selain dilihat secara visual, untuk menentukan model yang terbentuk baik digunakan dalam melakukan prediksi adalah nilai MSE dan MAE. dimana semakin kecil nilainya, maka semakin baik kualitas model tersebut. Dari hasil pengolahan data yang sudah dilakukan, hasil MSE yang diperloleh adalah:
 | No | Nama | Nilai |
 | -- | ---- | ----- |
 | 1 | MSE | 9.9058e-04 |
