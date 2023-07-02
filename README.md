@@ -105,9 +105,10 @@ Proses Prediksi
 ### Visualisasi Hasil
 Berikut adalah visualisasi dari hasil prediksi yang dilakukan menggunakan algoritma LSTM.
 
-![Visuaisasi Hasil](?raw=true)
+![Visuaisasi Hasil](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/8d9fac708134af046e477699b61189820c730de0/assets/Visualisasi%20Hasill.png?raw=true)
 
 ## Evaluation
+### MSE
 Model yang digunakan adalah model regressi, metric yang digunakan untuk evaluasi disini adalah Mean Squared Error (MSE), yaitu rata-rata Kesalahan kuadrat diantara nilai aktual dan nilai prediksi. Metode Mean Squared Error secara umum digunakan untuk mengecek estimasi berapa nilai kesalahan pada prediksi. Nilai Mean Squared Error yang rendah atau nilai mean squared error mendekati nol menunjukkan bahwa hasil prediksi sesuai dengan data aktual dan bisa dijadikan untuk perhitungan prediksi di periode mendatang. Metode Mean Squared Error biasanya digunakan untuk mengevaluasi metode pengukuran dengan model regressi.
 
 Kelebihan MSE yaitu sederhana dalam perhitungan. Sedangkan kelemahan yang dimiliki MSE adalah akurasi hasil prediksi sangat kecil karena tidak memperhatikan apakah hasil prediksi lebih besar atau lebih kecil dibandingkan kenyataannya
@@ -119,7 +120,23 @@ Keterangan:
 * yi = Actual Value / Nilai Sebenarnya
 * ŷi = Predicted Value / Nilai Prediksi
 
-Dari hasil pengolahan data yang sudah dilakukan, hasil MSE yang diperloleh sangat kecil, sehingga nilai yang keluar adalah NaN.
+### MAE
+MAE adalah salah satu metode evaluasi yang umum digunakan dalam data science. MAE menghitung rata-rata dari selisih absolut antara nilai prediksi dan nilai aktual.
+
+Dengan kata lain, MAE menghitung berapa rata-rata kesalahan absolut dalam prediksi. Semakin kecil nilai MAE, semakin baik kualitas model tersebut.
+
+![MAE](?raw=true)
+
+Keterangan:
+* n adalah jumlah sampel dalam data
+* yi adalah nilai aktual
+* ŷi adalah nilai prediksi
+
+Dari hasil pengolahan data yang sudah dilakukan, hasil MSE yang diperloleh adalah:
+| No | Nama | Nilai |
+| -- | ---- | ----- |
+| 1 | MSE | 9.9058e-04 |
+| 2 | MAE | 0.0239 |
 
 ## Daftar Referensi
 
