@@ -83,6 +83,7 @@ Berikut adalah hasilnya dalam bentuk array:
 ![Hasil Data Preparation](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/04323285052ea1ac7b085e8d0483614325600bcd/assets/Hasil%20data%20preparation.PNG?raw=true)
 
 ## Modeling
+### Membentuk Model
 Pada tahapan ini akan dilakukan pemodelan data menggunakan algoritma Long Short Term Memmory (LSTM) dengan langkah-langkah sebagai berikut:
 
 * Pertama-tama kita manfaatkan library keras.models untuk memanggil fungsi Sequential(), pada tahapan ini digunakan untuk menyiapkan basis model LSTM yang disimpan pada variabel model.
@@ -106,6 +107,49 @@ model.compile(optimizer = 'adam', loss = 'mean_squared_error')
 model.fit(x_train, y_train, batch_size = 1, epochs = 5)
 ```
 
+Berikut adalah hasil yang diperoleh:
+
+![Hasil running model](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/57347294b818e57ff6cb89dc9234b04edd727a46/assets/Running%20model.PNG?raw=true)
+
+### Melakukan Prediksi
+Membuat Variabel X Test, Y Test, dan Fungsi Pembagi Data
+* Disini kita akan medefinisikan variabel kosong bernama x_test dan y_test, yang akan diisi oleh pembagian data yang akan dilakukan menggunakan data yang sudah dibagi dan di-scaling sebelumnya.
+* Kemudian data akan dibagi menjadi 60 data x_test yang dimulai dari data dengan index 0 hingga 59 (data_testing) dan 1 data y_test (data_testing) yang diambil dari indeks ke 60.
+* Data dengan indeks 60 tersebut merupakan target dari prediksi setiap 60 data awal didefinisikan pada fungsi for di baris kode ke 9.
+* Pembagian selanjutnya adalah data dengan indeks 1 hingga 60 dan data dengan indeks 61, dan begitu seterusnya.
+```
+# Membuat dataset testing
+test_data = scaled_data[training_data_len - 60:, :]
+
+# Membuat dataset x_test and y_test
+x_test = []
+y_test = dataset[training_data_len:, :]
+for i in range(60, len(test_data)):
+  x_test.append(test_data[i-60:i, 0])
+```
+
+Proses Prediksi
+* Input dari model LSTM mengaruskan untuk array 3 dimensi berupa (number of samples, number of time steps, number of features).
+* Data yang dimiliki masih berbentuk 2 dimensi, jadi harus dilakukan reshaping kemudian data akan dilakukan prediksi. Setelah hasil prediksi didapatkan akan diterapkan fungsi inverse untuk membalikkan harga seperti semula.
+```
+# Convert data kedalam numpy array
+x_test = np.array(x_test)
+
+# Reshape dataset
+x_test = np.reshape(x_test, (x_test.shape[0], x_test.shape[1], 1))
+x_test.shape
+
+# Memprediksi menggunakan model LSTM
+lstm_prediction = model.predict(x_test)
+
+# Melakukan invers data yang sebelumnya di-scalling
+lstm_prediction = scaler.inverse_transform(lstm_prediction)
+```
+
+### Visualisasi Hasil
+Berikut adalah visualisasi dari hasil prediksi yang dilakukan menggunakan algoritma LSTM.
+
+![Visuaisasi Hasil](?raw=true)
 
 
 ## Evaluation
