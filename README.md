@@ -87,10 +87,6 @@ Adapun langkah-langkah yang penulis lakukan adalah sebagai berikut:
 * Setelah model selesai dibangun, model akan di-compile dan ditambahkan fungsi optimizer adam, dan loss function yang digunakan adalah mean_square_error (MSE).
 * Pada model, dilakukan proses training dengan hyperparameter disetel batch_size = 1 dan epoch = 5.
 
-Berikut adalah hasil yang diperoleh:
-
-![Hasil running model](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/76eec8554906aa264379cf050d98d719ea1903f1/assets/Running%20model.PNG?raw=true)
-
 ### Melakukan Prediksi
 Membuat Variabel X Test, Y Test, dan Fungsi Pembagi Data
 * Disini kita akan medefinisikan variabel kosong bernama x_test dan y_test, yang akan diisi oleh pembagian data yang akan dilakukan menggunakan data yang sudah dibagi dan di-scaling sebelumnya.
@@ -101,11 +97,6 @@ Membuat Variabel X Test, Y Test, dan Fungsi Pembagi Data
 Proses Prediksi
 * Input dari model LSTM mengaruskan untuk array 3 dimensi berupa (number of samples, number of time steps, number of features).
 * Data yang dimiliki masih berbentuk 2 dimensi, jadi harus dilakukan reshaping kemudian data akan dilakukan prediksi. Setelah hasil prediksi didapatkan akan diterapkan fungsi inverse untuk membalikkan harga seperti semula.
-
-### Visualisasi Hasil
-Berikut adalah visualisasi dari hasil prediksi yang dilakukan menggunakan algoritma LSTM.
-
-![Visuaisasi Hasil](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/8d9fac708134af046e477699b61189820c730de0/assets/Visualisasi%20Hasill.png?raw=true)
 
 ## Evaluation
 ### MSE
@@ -132,6 +123,17 @@ Keterangan:
 * yi adalah nilai aktual
 * ŷi adalah nilai prediksi
 
+### Running Model
+Setelah model dijalankan hasil yang diperoleh adalah sebagai berikut
+
+![Hasil running model](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/76eec8554906aa264379cf050d98d719ea1903f1/assets/Running%20model.PNG?raw=true)
+
+### Visualisasi Hasil
+Berikut adalah visualisasi dari hasil prediksi yang dilakukan menggunakan algoritma LSTM.
+
+![Visuaisasi Hasil](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/8d9fac708134af046e477699b61189820c730de0/assets/Visualisasi%20Hasill.png?raw=true)
+
+### Nilai MSE & MAE
 Dari hasil pengolahan data yang sudah dilakukan, hasil MSE yang diperloleh adalah:
 | No | Nama | Nilai |
 | -- | ---- | ----- |
