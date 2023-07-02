@@ -125,7 +125,7 @@ MAE adalah salah satu metode evaluasi yang umum digunakan dalam data science. MA
 
 Dengan kata lain, MAE menghitung berapa rata-rata kesalahan absolut dalam prediksi. Semakin kecil nilai MAE, semakin baik kualitas model tersebut.
 
-![MAE](?raw=true)
+![MAE](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/09b39291452c1cb16fbc80bff4dd391206478e80/assets/MAE.PNG?raw=true)
 
 Keterangan:
 * n adalah jumlah sampel dalam data
