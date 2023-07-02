@@ -89,7 +89,7 @@ Adapun langkah-langkah yang penulis lakukan adalah sebagai berikut:
 
 Berikut adalah hasil yang diperoleh:
 
-![Hasil running model]()
+![Hasil running model](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/76eec8554906aa264379cf050d98d719ea1903f1/assets/Running%20model.PNG?raw=true)
 
 ### Melakukan Prediksi
 Membuat Variabel X Test, Y Test, dan Fungsi Pembagi Data
@@ -105,7 +105,7 @@ Proses Prediksi
 ### Visualisasi Hasil
 Berikut adalah visualisasi dari hasil prediksi yang dilakukan menggunakan algoritma LSTM.
 
-![Visuaisasi Hasil](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/690eeea4581f1b1976dee708873a9e91f978c9c8/assets/Visualisasi%20Hasil.png?raw=true)
+![Visuaisasi Hasil](?raw=true)
 
 ## Evaluation
 Model yang digunakan adalah model regressi, metric yang digunakan untuk evaluasi disini adalah Mean Squared Error (MSE), yaitu rata-rata Kesalahan kuadrat diantara nilai aktual dan nilai prediksi. Metode Mean Squared Error secara umum digunakan untuk mengecek estimasi berapa nilai kesalahan pada prediksi. Nilai Mean Squared Error yang rendah atau nilai mean squared error mendekati nol menunjukkan bahwa hasil prediksi sesuai dengan data aktual dan bisa dijadikan untuk perhitungan prediksi di periode mendatang. Metode Mean Squared Error biasanya digunakan untuk mengevaluasi metode pengukuran dengan model regressi.
