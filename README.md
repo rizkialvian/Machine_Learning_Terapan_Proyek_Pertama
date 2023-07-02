@@ -25,11 +25,11 @@ Adapun goals adalah sebagai berikut:
 * Dapat mengetahui gambaran umum harga saham PT Bank Rakyat Indonesia Tbk.
 * Melakukan preprocessing data sehingga data tersebut siap untuk di latih oleh model Machine Learning.
 * Untuk preprocessing data dapat dilakukan beberapa teknik, diantaranya:
-** Melakukan drop kolom pada kolom yang tidak penting / yang tidak berpengaruh pada prediksi harga.
-** Handling null value, jika ada.
-** Melakukan Encoding terhadap kolom yang bertipe object atau categorical, jika ada.
-** Melakukan pembagian data menjadi dua bagian dengan rasio 80% untuk train dan 20% untuk test.
-** Melakukan MinMax Scaler.
+ * Melakukan drop kolom pada kolom yang tidak penting / yang tidak berpengaruh pada prediksi harga.
+ * Handling null value, jika ada.
+ * Melakukan Encoding terhadap kolom yang bertipe object atau categorical, jika ada.
+ * Melakukan pembagian data menjadi dua bagian dengan rasio 80% untuk train dan 20% untuk test.
+ * Melakukan MinMax Scaler.
 * Mendapatkan struktur terbaik pembentukan model dalam prediksi harga saham PT Bank Rakyat Indonesia Tbk menggunakan algoritma Long Short Term Memory (LSTM).
 * Mendapatkan tingkat keakurasian model dengan Long Short Term Memmory (LSTM).
 
