@@ -83,6 +83,15 @@ Berikut adalah hasilnya dalam bentuk array:
 ![Hasil Data Preparation](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/04323285052ea1ac7b085e8d0483614325600bcd/assets/Hasil%20data%20preparation.PNG?raw=true)
 
 ## Modeling
+Pada tahapan ini akan dilakukan pemodelan data menggunakan algoritma Long Short Term Memmory (LSTM) dengan langkah-langkah sebagai berikut:
+
+* Pertama-tama kita manfaatkan library keras.models untuk memanggil fungsi Sequential(), pada tahapan ini digunakan untuk menyiapkan basis model LSTM yang disimpan pada variabel model.
+```
+from keras.models import Sequential
+```
+* Kemudian manfaatkan library keras.layer untuk mengkonfigurasikan layer pada model LSTM, disini kita gunakan konfigurasi 3 layer dengan jumlah neuron 50, 50, dan 25.
+* Setelah model selesai dibangun, model akan di-compile dan ditambahkan fungsi optimizer adam, dan loss function yang digunakan adalah mean_square_error (MSE).
+* Pada model, dilakukan proses training dengan hyperparameter disetel batch_size = 1 dan epoch = 5.
 
 
 ## Evaluation
