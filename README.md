@@ -52,7 +52,7 @@ Data harga saham PT Bank Rakyat Indonesia Tbk periode 2 Juli 2018 sampai 28 Juni
 
 ### Overview data harga saham PT Bank Rakyat Indonesia Tbk
 | Date | Open | High | Low | Close | Adj Close | Volume |
-| ---- | ---- | ---- | --- | ----- | --------- | --  -- |
+| ---- | ---- | ---- | --- | ----- | --------- | ------ |
 | 2018-07-02 | 2890.0 | 2910.0 | 2820.0 | 2850.0 | 2362.062744 | 151334600.0 |
 | 2018-07-03 | 2850.0 | 2860.0 | 2770.0 | 2830.0 | 2345.487061 | 88835200.0 |
 | 2018-07-04 | 2830.0 | 2950.0 | 2790.0 | 2930.0 | 2428.366211 | 128906900.0 |
