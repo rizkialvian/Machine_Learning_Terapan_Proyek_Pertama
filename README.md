@@ -15,13 +15,21 @@ Penelitian sebelumya tentang penggunaan metode LSTM sudah banyak dilakukan, dian
 ## Business Understanding
 ### Problem Statements
 Adapun problem statement dari pernyataan masalah latar belakang adalah sebagai berikut:
-* Bagaimana gambaran umum harga saham PT Bank Rakyat Indonesia Tbk.
-* Bagaimana struktur terbaik pembentukan model dalam prediksi harga saham PT BRI Tbk menggunakan algoritma Long Short Term Memory (LSTM) dengan optimasi Stochastic Gradient Descent (SGD).
-* Bagaimana tingkat keakurasian model dengan Long Short Trem Memory (LSTM).
+* Bagaimana gambaran umum harga saham PT Bank Rakyat Indonesia Tbk?
+* Bagaimana cara preprocessing pada data PT Bank Rakyat Indonesia Tbk yang akan digunakan untuk membuat model yang baik?
+* Bagaimana struktur terbaik pembentukan model dalam prediksi harga saham PT BRI Tbk menggunakan algoritma Long Short Term Memory?
+* Bagaimana tingkat keakurasian model dengan Long Short Trem Memory?
 
 ### Goals
 Adapun goals adalah sebagai berikut:
 * Dapat mengetahui gambaran umum harga saham PT Bank Rakyat Indonesia Tbk.
+* Melakukan preprocessing data sehingga data tersebut siap untuk di latih oleh model Machine Learning.
+* Untuk preprocessing data dapat dilakukan beberapa teknik, diantaranya:
+** Melakukan drop kolom pada kolom yang tidak penting / yang tidak berpengaruh pada prediksi harga.
+** Handling null value, jika ada.
+** Melakukan Encoding terhadap kolom yang bertipe object atau categorical, jika ada.
+** Melakukan pembagian data menjadi dua bagian dengan rasio 80% untuk train dan 20% untuk test.
+** Melakukan MinMax Scaler.
 * Mendapatkan struktur terbaik pembentukan model dalam prediksi harga saham PT Bank Rakyat Indonesia Tbk menggunakan algoritma Long Short Term Memory (LSTM).
 * Mendapatkan tingkat keakurasian model dengan Long Short Term Memmory (LSTM).
 
