@@ -40,10 +40,15 @@ Data yang digunakan pada proyek pertama predictive analytics adalah data harga s
 Data harga saham PT Bank Rakyat Indonesia Tbk periode 2 Juli 2018 sampai 28 Juni 2023 mempunyai 1239 data, dimana pada setiap tangal perekaman data terdiri dari 7 kolom yaitu Date, Open, High, Low, Close, Adj Close, dan Volume.
 
 ### Variabel-variabel pada data harga saham PT Bank Rakyat Indonesia Tbk
-
 | Kolom | Keterangan |
 | ----- | ---------- |
-| Date | - |
+| Date | Tanggal pencatatan harga saham |
+| Open | Harga pembukaan saham |
+| Hight | Harga tertinggi saham |
+| Low | Harga terendah saham |
+| Close | Harga penutupan saham |
+| Adj Close | Harga penutupan yang telah disesuaikan, maksudnya adalah harga saham penutupan yang sudah disesuaikan ketika terjadi aksi korporasi perusahaan, dalam hal ini adalah dividen dan stock split |
+| Volume | Jumlah saham yang diperdagangkan dalam suatu periode |
 
 ## Data Preparation
 
