@@ -13,6 +13,17 @@ Beberapa metode dapat digunakan untuk melakukan prediksi, salah satu metode yang
 Penelitian sebelumya tentang penggunaan metode LSTM sudah banyak dilakukan, diantaranya oleh Arfan dan Lusiana [4] tentang prediksi harga saham di Indonesia menggunakan algoritma LSTM dengan SVR, dan diperoleh hasil bahwa model mampu memprediksi harga saham pada tahun 2017-2019 dengan performa yang baik dan tingkat kesalahan yang relatif kecil. Maka dapart dikatakan bahwa LSTM mampu menanggulangi ketergantungan jangka panjang dan mampu memprediksi harga saham dengan hasil yang akurat. Penelitian selanjutnya oleh Alawiyah [5] dengan judul pemodelan menggunakan pendekatan Recuerent Naural Network Long Short Term Memory (RNN-LSTM) pada harga emas, dijelaskan bahwa dalam prosesnya LSTM memerlukan parameter yang tepat untuk memperoleh hasil akurasi yang kuat. Parameter analisis yang dilakukan yaitu menentukan nilai neuron hiden layer dan max epoch dengan komposisi data latih dan data uji yang tepat untuk memperoleh model terbaik. Hasil analisis yang dilakukan dengan data training 80% dan testing 20% , dengan nilai neuron 30 dan max epoch 500 dan optimasi Adam dapat melakukan prediksi harga emas dengan baik, dilihat dari nilai error MAPE 1,09%.
 
 ## Business Understanding
+### Problem Statements
+Adapun problem statement dari pernyataan masalah latar belakang adalah sebagai berikut:
+* Bagaimana gambaran umum harga saham PT Bank Rakyat Indonesia Tbk.
+* Bagaimana struktur terbaik pembentukan model dalam prediksi harga saham PT BRI Tbk menggunakan algoritma Long Short Term Memory (LSTM) dengan optimasi Stochastic Gradient Descent (SGD).
+* Bagaimana tingkat keakurasian model dengan Long Short Trem Memory (LSTM).
+
+### Goals
+Adapun goals adalah sebagai berikut:
+* Dapat mengetahui gambaran umum harga saham PT Bank Rakyat Indonesia Tbk.
+* Mendapatkan struktur terbaik pembentukan model dalam prediksi harga saham PT Bank Rakyat Indonesia Tbk menggunakan algoritma Long Short Term Memory (LSTM).
+* Mendapatkan tingkat keakurasian model dengan Long Short Term Memmory (LSTM).
 
 ## Data Understanding
 
