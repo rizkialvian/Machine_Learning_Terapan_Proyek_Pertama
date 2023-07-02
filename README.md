@@ -26,12 +26,6 @@ Adapun problem statement dari pernyataan masalah latar belakang adalah sebagai b
 Adapun goals adalah sebagai berikut:
 * Dapat mengetahui gambaran umum harga saham PT Bank Rakyat Indonesia Tbk.
 * Melakukan preprocessing data sehingga data tersebut siap untuk di latih oleh model Machine Learning.
-* Untuk preprocessing data dapat dilakukan beberapa teknik, diantaranya:
-  * Melakukan drop kolom pada kolom yang tidak penting / yang tidak berpengaruh pada prediksi harga.
-  * Handling null value, jika ada.
-  * Melakukan Encoding terhadap kolom yang bertipe object atau categorical, jika ada.
-  * Melakukan pembagian data menjadi dua bagian dengan rasio 80% untuk train dan 20% untuk test.
-  * Melakukan MinMax Scaler.
 * Mendapatkan struktur terbaik pembentukan model dalam prediksi harga saham PT Bank Rakyat Indonesia Tbk menggunakan algoritma Long Short Term Memory (LSTM).
 * Mendapatkan tingkat keakurasian model dengan Long Short Term Memmory (LSTM).
 
@@ -78,16 +72,18 @@ Teknik Data Preparation yang Dilakukan adalah sebagai berikut:
 * Mengubah data menjadi tipe array.
 * Membagi data menjadi data training dan data testing dengan perbandingan 80:20. Dari pembagian ini diperoleh data training sebanyak 992 data.
 
-Berikut adalah hasilnya dalam bentuk array:
-
-![Hasil Data Preparation](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/04323285052ea1ac7b085e8d0483614325600bcd/assets/Hasil%20data%20preparation.PNG?raw=true)
-
 ## Modeling
 ### Membentuk Model
-Pada tahapan ini akan dilakukan pemodelan data menggunakan algoritma Long Short Term Memmory (LSTM) dengan langkah-langkah sebagai berikut:
+Pada tahapan ini akan dilakukan pemodelan data menggunakan algoritma Long Short Term Memmory (LSTM) yaitu merupakan pengembangan lebih lanjut dari arsitektur RNN. LSTM diperkenalkan oleh Hochreiter dan Schamidhuber pada tahun 1997 dan muncul karena kurangnya gradien di RNN. Fitur utama jaringan LSTM adalah lapisan tersembunyi, yang terdiri dari sel-sel memori. Setiap sel memori memiliki tiga gerbang atau gate: forgate gate, input gate, dan output gate.
 
-* Pertama-tama kita manfaatkan library keras.models untuk memanggil fungsi Sequential(), pada tahapan ini digunakan untuk menyiapkan basis model LSTM yang disimpan pada variabel model.
-* Kemudian manfaatkan library keras.layer untuk mengkonfigurasikan layer pada model LSTM, disini kita gunakan konfigurasi 3 layer dengan jumlah neuron 50, 50, dan 25.
+Secara sederhana, cara kerja algoritma LSTM dapat dijabarkan dalam langkah-langkah berikut:
+* LSTM memutuskan informasi mana yang akan disimpan dan mana yang akan dihapus dari status sel. Lapisan sigmoid bertanggung jawab atas keputusan ini.
+* LSTM memutuskan informasi baru apa yang akan disimpan dan menggantikan informasi yang tidak relevan yang diidentifikasi pada langkah sebelumnya. Fungsi Tanh dan fungsi sigmoid memainkan peran penting dalam mengidentifikasi informasi yang relevan.
+* Keluaran yang diperoleh dengan menggunakan status sel adalah versi yang difilter dengan fungsi sigmoid dan tan yang diterapkan.
+
+Adapun langkah-langkah yang penulis lakukan adalah sebagai berikut:
+* Pertama-tama penulis menggunakan library keras.models untuk memanggil fungsi Sequential(), pada tahapan ini digunakan untuk menyiapkan basis model LSTM yang disimpan pada variabel model.
+* Kemudian penulis menggunakan library keras.layer untuk mengkonfigurasikan layer pada model LSTM, disini kita gunakan konfigurasi 3 layer dengan jumlah neuron 50, 50, dan 25.
 * Setelah model selesai dibangun, model akan di-compile dan ditambahkan fungsi optimizer adam, dan loss function yang digunakan adalah mean_square_error (MSE).
 * Pada model, dilakukan proses training dengan hyperparameter disetel batch_size = 1 dan epoch = 5.
 
