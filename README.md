@@ -89,7 +89,7 @@ Adapun langkah-langkah yang penulis lakukan adalah sebagai berikut:
 
 Berikut adalah hasil yang diperoleh:
 
-![Hasil running model](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/57347294b818e57ff6cb89dc9234b04edd727a46/assets/Running%20model.PNG?raw=true)
+![Hasil running model]()
 
 ### Melakukan Prediksi
 Membuat Variabel X Test, Y Test, dan Fungsi Pembagi Data
