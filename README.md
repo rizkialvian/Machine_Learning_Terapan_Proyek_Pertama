@@ -51,6 +51,7 @@ Data harga saham PT Bank Rakyat Indonesia Tbk periode 2 Juli 2018 sampai 28 Juni
 | Volume | Jumlah saham yang diperdagangkan dalam suatu periode |
 
 ### Overview data harga saham PT Bank Rakyat Indonesia Tbk
+Berikut adalah 5 data harga saham PT Bank Rakyat Indonesia Tbk periode 2 Juli 2018 sampai 28 Juni 2023 yang mempunyai total 1239 data. Data dapat dilihat pada tabel berikut:
 | Date | Open | High | Low | Close | Adj Close | Volume |
 | ---- | ---- | ---- | --- | ----- | --------- | ------ |
 | 2018-07-02 | 2890.0 | 2910.0 | 2820.0 | 2850.0 | 2362.062744 | 151334600.0 |
