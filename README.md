@@ -71,18 +71,27 @@ Dari gambar diatas dapat kita lihat bahwa harga saham terkadang naik, terkadang 
 
 ## Data Preparation
 Teknik Data Preparation yang Dilakukan adalah sebagai berikut:
-* Memeriksa tipe data, tahapan ini perlu dilakukan untuk memeriksa apakah data merupakan object atau berbentuk kategorikal. Setelah diperiksa ternyata tipe data penutupan saham merupakan data numerik dengan tipe float64, yang berarti tahapan ini dapat terlewati.
+* Memeriksa tipe data, tahapan ini perlu dilakukan untuk memeriksa apakah data merupakan object atau berbentuk kategorikal. Setelah diperiksa ternyata tipe data penutupan saham merupakan data numerik dengan tipe float64, yang berarti skip langkah OHE / Label Encoder.
 * memeriksa apakah ada data yang kosong, tahapan ini perlu dilakukan untuk memastikan tidak ada data yang dapat mempengaruhi perolehan hasil model. setelah diperiksa ternyata tidak ada data yang kosong sehingga tahapan ini dapat terlewati.
 * Mengambil kolom Close, ini dilakukan karena yang akan digunakan dalam proses prediksi harga adalah data penutupan saham, sehingga yang dipilih adalah kolom Close saja.
-* Melakukan MinMaxScaller, ini merupakan proses scalling dengan mengubah data numeric menjadi data numeric yang memiliki rentang 0 - 1.
-* Mengubah data menjadi tipe array dan membagi data menjadi data training dan data testing dengan perbandingan 80:20. Dari pembagian ini diperoleh data training sebanyak 992 data.
+* Melakukan MinMaxScaller(), ini merupakan proses scalling dengan mengubah data numeric menjadi data numeric yang memiliki rentang 0 - 1.
+* Mengubah data menjadi tipe array.
+* Membagi data menjadi data training dan data testing dengan perbandingan 80:20. Dari pembagian ini diperoleh data training sebanyak 992 data.
 
 Berikut adalah hasilnya dalam bentuk array:
+
 ![Hasil Data Preparation](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/04323285052ea1ac7b085e8d0483614325600bcd/assets/Hasil%20data%20preparation.PNG?raw=true)
 
 ## Modeling
 
+
 ## Evaluation
+
+Model yang digunakan adalah model regressi, metric yang digunakan untuk evaluasi disini adalah Mean Squared Error (MSE), yaitu rata-rata Kesalahan kuadrat diantara nilai aktual dan nilai prediksi. Metode Mean Squared Error secara umum digunakan untuk mengecek estimasi berapa nilai kesalahan pada prediksi. Nilai Mean Squared Error yang rendah atau nilai mean squared error mendekati nol menunjukkan bahwa hasil prediksi sesuai dengan data aktual dan bisa dijadikan untuk perhitungan prediksi di periode mendatang. Metode Mean Squared Error biasanya digunakan untuk mengevaluasi metode pengukuran dengan model regressi.
+
+Kelebihan MSE yaitu sederhana dalam perhitungan. Sedangkan kelemahan yang dimiliki MSE adalah akurasi hasil prediksi sangat kecil karena tidak memperhatikan apakah hasil prediksi lebih besar atau lebih kecil dibandingkan kenyataannya
+
+$ MSE $
 
 ## Daftar Referensi
 
