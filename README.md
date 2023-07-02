@@ -34,6 +34,16 @@ Adapun goals adalah sebagai berikut:
 * Mendapatkan tingkat keakurasian model dengan Long Short Term Memmory (LSTM).
 
 ## Data Understanding
+### Sumber Data
+Data yang digunakan pada proyek pertama predictive analytics adalah data harga saham PT Bank Rakyat Indonesia Tbk periode 2 Juli 2018 sampai 28 Juni 2023, yang diperoleh dari Yahoo Finance pada tautan berikut https://finance.yahoo.com/quote/BBRI.JK/ .
+
+Data harga saham PT Bank Rakyat Indonesia Tbk periode 2 Juli 2018 sampai 28 Juni 2023 mempunyai 1239 data, dimana pada setiap tangal perekaman data terdiri dari 7 kolom yaitu Date, Open, High, Low, Close, Adj Close, dan Volume.
+
+### Variabel-variabel pada data harga saham PT Bank Rakyat Indonesia Tbk
+
+| Kolom | Keterangan |
+| ----- | ---------- |
+| Date | - |
 
 ## Data Preparation
 
