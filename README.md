@@ -60,9 +60,12 @@ Berikut adalah 5 data harga saham PT Bank Rakyat Indonesia Tbk periode 2 Juli 20
 | 2018-07-05 | 2890.0 | 2920.0 | 2860.0 | 2910.0 | 2411.790527 | 63494300.0 |
 | 2018-07-06 | 2910.0 | 2910.0 | 2840.0 | 2840.0 | 2353.774902 | 76368500.0 |
 
-## Data Preparation
-
+### Visualisasi data
+Berikut adalah harga penutupan saham PT Bank Rakyat Indonesia Tbk periode 2 Juli 2018 sampai 28 Juni 2023. untuk pergerakannya dapat dilihat pada gambar dibawah ini.
 ![Harga Saham PT Bank Rakyat Indonesia Tbk periode 2 Juli 2018 sampai 28 Juni 2023](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/9ffa7391a1083edecf291bdd77d1928ddfc9c81a/assets/PT%20Bank%20Rakyat%20Indonesia%20Tbk%20(2%20Jul%202018%20-%2028%20Jun%202023).png?raw=true)
+Dari gambar diatas dapat kita lihat bahwa harga saham terkadang naik, terkadang turun. Namun apabila diamati lebih dalam, harga saham menunjukan pola tren naik.
+
+## Data Preparation
 
 ## Modeling
 
