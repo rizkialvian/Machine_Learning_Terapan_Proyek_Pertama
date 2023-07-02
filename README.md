@@ -6,7 +6,7 @@
 ### Latar Belakang
 Pasar modal menawarkan berbagai macam kegiatan, termasuk investasi. Berinvestasi adalah tindakan menunda konsumsi saat ini untuk menarik konsumsi masa depan dalam menghadapi faktor risiko yang tidak pasti. Produk investasi terpenting di pasar modal adalah saham, obligasi, dan dana investasi. Saham adalah tanda bahwa seseorang menerima dana untuk bisnis atau perseroan terbatas. Harga saham digunakan untuk investasi saham. Harga saham adalah harga yang ditetapkan perusahaan sehubungan dengan perusahaan lain dan digunakan untuk memantau kualitas sahamnya dari waktu ke waktu.
 
-Tren investasi saham terus tercermin di pasar modal, termasuk perbankan yang merupakan lembaga jasa keuangan yang berperan penting dalam perekonomian nasional, di mana harga saham juga memegang peranan penting. Berdasarkan pada Undang-Undang RI Nomor 10 Tahun 1998 [1], Bank adalah badan usaha yang menghimpun dana dari masyarakat dalam bentuk simpanan dan menyalurkannya kepada masyarakat dalam bentuk kredit dan bentuk-bentuk lainnya dalam rangka meningkatkan taraf hidup rakyat banyak.
+Tren investasi saham terus tercermin di pasar modal, termasuk perbankan yang merupakan lembaga jasa keuangan yang berperan penting dalam perekonomian nasional, di mana harga saham juga memegang peranan penting. Berdasarkan pada Undang-Undang RI Nomor 10 Tahun 1998 [1](https://www.dpr.go.id/jdih/index/id/468), Bank adalah badan usaha yang menghimpun dana dari masyarakat dalam bentuk simpanan dan menyalurkannya kepada masyarakat dalam bentuk kredit dan bentuk-bentuk lainnya dalam rangka meningkatkan taraf hidup rakyat banyak.
 
 Bank Rakyat Indonesia (Bank BRI) merupakan salah satu perbankan nasional terbaik yang mampu bersaing dalam industri perbankan nasional. Oleh karena itu, penentuan prediksi atau proyeksi harga saham jangka pendek, khususnya perubahan harga saham harian, memerlukan metode, model, atau pendekatan yang harus diuji keakuratannya. Semakin divalidasi keakuratan model peramalan jangka pendek, semakin diinginkan penggunaannya oleh pelaku pasar.
 
@@ -167,13 +167,12 @@ Dari hasil pengolahan data yang sudah dilakukan, hasil MSE yang diperloleh sanga
 
 ## Daftar Referensi
 
-[1] Undang-Undang RI Nomor 10 Tahun 1998 Perubahan Atas Undang-Undang Nomor 7 Tahun 1992 Tentang Perbankan.
+[1] [Undang-Undang RI Nomor 10 Tahun 1998 Perubahan Atas Undang-Undang Nomor 7 Tahun 1992 Tentang Perbankan.](https://www.dpr.go.id/jdih/index/id/468)
 
 [2] [Yu, Q., Wang, K., Strandhagen, J. O., & Wang, Y. (2018). Application of long short-term memory neural network to sales forecasting in retail—a case study. In Advanced Manufacturing and Automation VII 7 (pp. 11-17). Springer Singapore.](https://link.springer.com/chapter/10.1007/978-981-10-5768-7_2)
 
+[3] [Suyudi, M. A. D., Djamal, E. C., & Maspupah, A. (2019, August). Prediksi Harga Saham menggunakan Metode Recurrent Neural Network. In Seminar Nasional Aplikasi Teknologi Informasi (SNATI).](https://journal.uii.ac.id/Snati/article/download/13398/9494)
 
-[3] Sayudi, MAD., Djamal,EC. Dan Asri Maspupah. (2019). Prediksi Harga Saham Menggunkan Metode Recurrent Neural Network. Maklah disajikan dalam Seminar Nasional Aplikasi Teknologi Inormasi, Yogyakarta. 
+[4] [Arfan, A., & Lussiana, E. T. P. (2020). Perbandingan algoritma long short-term memory dengan SVR pada prediksi harga saham di Indonesia.](http://jurnal.itpln.ac.id/petir/article/view/858)
 
-[4] Arfan, A dan Lussiana ETP. (2020). Perbandingan Algoritma Long Short Term Memory dengan SVR pada Prediksi Harga Saham di Indonesia. Jurnal Pengkajian dan Penerapan Teknik Informatika.
-
-[5] Alwiyah, Silvie N. (2020). Pemodelan Menggunakan Pendekatan Recurrent Neural Network Long Short Term Memory (RNN-LSTM) pada Harga Emas Dunia. Universitas Muhammadiyah Semarang.
+[5] [ALAWIYAH, S. N. (2021). PEMODELAN MENGGUNAKAN PENDEKATAN RECURRENT NEURAL NETWORK LONG SHORT TERM MEMORY (RNNLSTM) PADA HARGA EMAS DUNIA (Doctoral dissertation, Muhammadiyah University, Semarang).](http://repository.unimus.ac.id/id/eprint/4855)
