@@ -149,8 +149,7 @@ lstm_prediction = scaler.inverse_transform(lstm_prediction)
 ### Visualisasi Hasil
 Berikut adalah visualisasi dari hasil prediksi yang dilakukan menggunakan algoritma LSTM.
 
-![Visuaisasi Hasil](?raw=true)
-
+![Visuaisasi Hasil](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/690eeea4581f1b1976dee708873a9e91f978c9c8/assets/Visualisasi%20Hasil.png?raw=true)
 
 ## Evaluation
 Model yang digunakan adalah model regressi, metric yang digunakan untuk evaluasi disini adalah Mean Squared Error (MSE), yaitu rata-rata Kesalahan kuadrat diantara nilai aktual dan nilai prediksi. Metode Mean Squared Error secara umum digunakan untuk mengecek estimasi berapa nilai kesalahan pada prediksi. Nilai Mean Squared Error yang rendah atau nilai mean squared error mendekati nol menunjukkan bahwa hasil prediksi sesuai dengan data aktual dan bisa dijadikan untuk perhitungan prediksi di periode mendatang. Metode Mean Squared Error biasanya digunakan untuk mengevaluasi metode pengukuran dengan model regressi.
@@ -164,11 +163,14 @@ Keterangan:
 * yi = Actual Value / Nilai Sebenarnya
 * ŷi = Predicted Value / Nilai Prediksi
 
+Dari hasil pengolahan data yang sudah dilakukan, hasil MSE yang diperloleh sangat kecil, sehingga nilai yang keluar adalah NaN.
+
 ## Daftar Referensi
 
 [1] Undang-Undang RI Nomor 10 Tahun 1998 Perubahan Atas Undang-Undang Nomor 7 Tahun 1992 Tentang Perbankan.
 
-[2] Wang ,Yu, Q , K. Strandhagep, J & Wang Y. (2017). Aplication of Long Short Term Memory Neural Network to sales Forecesting in Retail. A case Study, Internasional Workshop of Advanced Manufacturing and Automation.
+[2] [Yu, Q., Wang, K., Strandhagen, J. O., & Wang, Y. (2018). Application of long short-term memory neural network to sales forecasting in retail—a case study. In Advanced Manufacturing and Automation VII 7 (pp. 11-17). Springer Singapore.](https://link.springer.com/chapter/10.1007/978-981-10-5768-7_2)
+
 
 [3] Sayudi, MAD., Djamal,EC. Dan Asri Maspupah. (2019). Prediksi Harga Saham Menggunkan Metode Recurrent Neural Network. Maklah disajikan dalam Seminar Nasional Aplikasi Teknologi Inormasi, Yogyakarta. 
 
