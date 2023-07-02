@@ -62,6 +62,8 @@ Berikut adalah 5 data harga saham PT Bank Rakyat Indonesia Tbk periode 2 Juli 20
 
 ## Data Preparation
 
+![Harga Saham PT Bank Rakyat Indonesia Tbk periode 2 Juli 2018 sampai 28 Juni 2023](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/9ffa7391a1083edecf291bdd77d1928ddfc9c81a/assets/PT%20Bank%20Rakyat%20Indonesia%20Tbk%20(2%20Jul%202018%20-%2028%20Jun%202023).png?raw=true)
+
 ## Modeling
 
 ## Evaluation
