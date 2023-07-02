@@ -74,10 +74,11 @@ Teknik Data Preparation yang Dilakukan adalah sebagai berikut:
 * Memeriksa tipe data, tahapan ini perlu dilakukan untuk memeriksa apakah data merupakan object atau berbentuk kategorikal. Setelah diperiksa ternyata tipe data penutupan saham merupakan data numerik dengan tipe float64, yang berarti tahapan ini dapat terlewati.
 * memeriksa apakah ada data yang kosong, tahapan ini perlu dilakukan untuk memastikan tidak ada data yang dapat mempengaruhi perolehan hasil model. setelah diperiksa ternyata tidak ada data yang kosong sehingga tahapan ini dapat terlewati.
 * Mengambil kolom Close, ini dilakukan karena yang akan digunakan dalam proses prediksi harga adalah data penutupan saham, sehingga yang dipilih adalah kolom Close saja.
-* Melakukan MinMaxScaller, ini merupakan proses scalling dengan mengubah data numeric menjadi data numeric yang memiliki rentang 0 - 1
+* Melakukan MinMaxScaller, ini merupakan proses scalling dengan mengubah data numeric menjadi data numeric yang memiliki rentang 0 - 1.
 * Mengubah data menjadi tipe array dan membagi data menjadi data training dan data testing dengan perbandingan 80:20. Dari pembagian ini diperoleh data training sebanyak 992 data.
 
 Berikut adalah hasilnya dalam bentuk array:
+![Hasil Data Preparation](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/04323285052ea1ac7b085e8d0483614325600bcd/assets/Hasil%20data%20preparation.PNG?raw=true)
 
 ## Modeling
 
