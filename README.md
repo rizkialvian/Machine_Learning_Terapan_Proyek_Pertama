@@ -1,5 +1,7 @@
 # Laporan Proyek Machine Learning - Rizki Alvian
 
+![Logo BRI](https://github.com/rizkialvian/Machine_Learning_Terapan_Proyek_Pertama/blob/ad462764904d860778e783fe29d30c8d1b6a56c2/assets/BRI.PNG?raw=true)
+
 ## Domain proyek
 ### Latar Belakang
 Pasar modal menawarkan berbagai macam kegiatan, termasuk investasi. Berinvestasi adalah tindakan menunda konsumsi saat ini untuk menarik konsumsi masa depan dalam menghadapi faktor risiko yang tidak pasti. Produk investasi terpenting di pasar modal adalah saham, obligasi, dan dana investasi. Saham adalah tanda bahwa seseorang menerima dana untuk bisnis atau perseroan terbatas. Harga saham digunakan untuk investasi saham. Harga saham adalah harga yang ditetapkan perusahaan sehubungan dengan perusahaan lain dan digunakan untuk memantau kualitas sahamnya dari waktu ke waktu.
