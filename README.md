@@ -50,6 +50,15 @@ Data harga saham PT Bank Rakyat Indonesia Tbk periode 2 Juli 2018 sampai 28 Juni
 | Adj Close | Harga penutupan yang telah disesuaikan, maksudnya adalah harga saham penutupan yang sudah disesuaikan ketika terjadi aksi korporasi perusahaan, dalam hal ini adalah dividen dan stock split |
 | Volume | Jumlah saham yang diperdagangkan dalam suatu periode |
 
+### Overview data harga saham PT Bank Rakyat Indonesia Tbk
+| Date | Open | High | Low | Close | Adj Close | Volume |
+| ---- | ---- | ---- | --- | ----- | --------- | --  -- |
+| 2018-07-02 | 2890.0 | 2910.0 | 2820.0 | 2850.0 | 2362.062744 | 151334600.0 |
+| 2018-07-03 | 2850.0 | 2860.0 | 2770.0 | 2830.0 | 2345.487061 | 88835200.0 |
+| 2018-07-04 | 2830.0 | 2950.0 | 2790.0 | 2930.0 | 2428.366211 | 128906900.0 |
+| 2018-07-05 | 2890.0 | 2920.0 | 2860.0 | 2910.0 | 2411.790527 | 63494300.0 |
+| 2018-07-06 | 2910.0 | 2910.0 | 2840.0 | 2840.0 | 2353.774902 | 76368500.0 |
+
 ## Data Preparation
 
 ## Modeling
